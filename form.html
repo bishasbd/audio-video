@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<header>
+    <nav>
+        <ul>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="tebel.html">tabel</a></li>
+                <li><a href="">semantik
+                        <ul class="dropdown">
+                            <li><a href="">link-1</a></li>
+                            <li><a href="">link-2</a></li>
+                            <li><a href="">link-3</a></li>
+                            <li><a href="">link-4</a></li>
+                        </ul>
+                    </a></li>
+
+
+
+            </ul>
+        </ul>
+
+    </nav>
+    <h1>Jamaler mar special pitha</h1>
+</header>
+
+<body>
+
+    <form action="">
+        <p>
+            Name: <input type="text" name="Name" placeholder="Enter your name" id="">
+        </p>
+        <p>
+            Email: <input type="text" name="Name" placeholder="Enter your Email" id="">
+        </p>
+        <fieldset>
+            <legend>select your pitha</legend>
+            <p>
+                <label for="chitoy"><input type="radio" name="pitha" id="chitoy">chitoy</label>
+            </p>
+            <p>
+                <label for="bapa"><input type="radio" name="pitha" id="bapa">bapa</label>
+            </p>
+            <p>
+                <label for="gulgula"><input type="radio" name="pitha" id="gulgula">gulgula</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>select your borta</legend>
+            <p><label for="sorisa"><input type="checkbox" name="borta" id="sorisa">sorisa</label></p>
+            <p><label for="sutki"><input type="checkbox" name="borta" id="sutki">sutki</label></p>
+            <p><label for="moris"><input type="checkbox" name="borta" id="moris">moris</label></p>
+        </fieldset>
+        <p>Special Instruction</p><br>
+        <textarea name="Instrction" id="" cols="30" rows="10"></textarea><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
